@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A23AC15C28F3119400A39B08 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A23AC15B28F3119400A39B08 /* .gitignore */; };
 		A2B0DF4528F30623009F1102 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B0DF4428F30623009F1102 /* AppDelegate.swift */; };
 		A2B0DF4728F30623009F1102 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B0DF4628F30623009F1102 /* SceneDelegate.swift */; };
 		A2B0DF4928F30623009F1102 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B0DF4828F30623009F1102 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A23AC15B28F3119400A39B08 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		A2B0DF4128F30623009F1102 /* Techl-Neo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Techl-Neo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2B0DF4428F30623009F1102 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2B0DF4628F30623009F1102 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 		A2B0DF3828F30622009F1102 = {
 			isa = PBXGroup;
 			children = (
+				A23AC15B28F3119400A39B08 /* .gitignore */,
 				A2B0DF4328F30623009F1102 /* Techl-Neo */,
 				A2B0DF4228F30623009F1102 /* Products */,
 			);
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A23AC15C28F3119400A39B08 /* .gitignore in Resources */,
 				A2B0DF5128F30626009F1102 /* LaunchScreen.storyboard in Resources */,
 				A2B0DF4E28F30625009F1102 /* Assets.xcassets in Resources */,
 				A2B0DF4C28F30623009F1102 /* Main.storyboard in Resources */,
