@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6929CCD6B3AFD7DAECB86228 /* Pods_Techl_Neo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB14C8E2D8B25F4975FA683 /* Pods_Techl_Neo.framework */; };
 		A23AC15C28F3119400A39B08 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A23AC15B28F3119400A39B08 /* .gitignore */; };
+		A23AC15F28F31C4D00A39B08 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A23AC15E28F31C4D00A39B08 /* Alamofire */; };
+		A23AC16228F31C6500A39B08 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A23AC16128F31C6500A39B08 /* Kingfisher */; };
+		A23AC16528F31C7A00A39B08 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A23AC16428F31C7A00A39B08 /* SnapKit */; };
+		A23AC16828F31C8D00A39B08 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = A23AC16728F31C8D00A39B08 /* Then */; };
 		A2B0DF4528F30623009F1102 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B0DF4428F30623009F1102 /* AppDelegate.swift */; };
 		A2B0DF4728F30623009F1102 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B0DF4628F30623009F1102 /* SceneDelegate.swift */; };
 		A2B0DF4928F30623009F1102 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B0DF4828F30623009F1102 /* ViewController.swift */; };
@@ -26,6 +31,9 @@
 		A2B0DF4D28F30625009F1102 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2B0DF5028F30626009F1102 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2B0DF5228F30626009F1102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4B56B0526AD5311E60C8FEF /* Pods-Techl-Neo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Techl-Neo.debug.xcconfig"; path = "Target Support Files/Pods-Techl-Neo/Pods-Techl-Neo.debug.xcconfig"; sourceTree = "<group>"; };
+		C0FFDFC48EC30A82C6C998E2 /* Pods-Techl-Neo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Techl-Neo.release.xcconfig"; path = "Target Support Files/Pods-Techl-Neo/Pods-Techl-Neo.release.xcconfig"; sourceTree = "<group>"; };
+		CDB14C8E2D8B25F4975FA683 /* Pods_Techl_Neo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Techl_Neo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,18 +41,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A23AC16528F31C7A00A39B08 /* SnapKit in Frameworks */,
+				A23AC16228F31C6500A39B08 /* Kingfisher in Frameworks */,
+				A23AC15F28F31C4D00A39B08 /* Alamofire in Frameworks */,
+				A23AC16828F31C8D00A39B08 /* Then in Frameworks */,
+				6929CCD6B3AFD7DAECB86228 /* Pods_Techl_Neo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1663FA4838068222FBEC3C0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDB14C8E2D8B25F4975FA683 /* Pods_Techl_Neo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A2B0DF3828F30622009F1102 = {
 			isa = PBXGroup;
 			children = (
 				A23AC15B28F3119400A39B08 /* .gitignore */,
 				A2B0DF4328F30623009F1102 /* Techl-Neo */,
 				A2B0DF4228F30623009F1102 /* Products */,
+				C467D51BC5CC10807654941D /* Pods */,
+				1663FA4838068222FBEC3C0D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +93,16 @@
 			path = "Techl-Neo";
 			sourceTree = "<group>";
 		};
+		C467D51BC5CC10807654941D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4B56B0526AD5311E60C8FEF /* Pods-Techl-Neo.debug.xcconfig */,
+				C0FFDFC48EC30A82C6C998E2 /* Pods-Techl-Neo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +110,23 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2B0DF5528F30626009F1102 /* Build configuration list for PBXNativeTarget "Techl-Neo" */;
 			buildPhases = (
+				5AC88736BAC0AC056AEE8A47 /* [CP] Check Pods Manifest.lock */,
 				A2B0DF3D28F30622009F1102 /* Sources */,
 				A2B0DF3E28F30622009F1102 /* Frameworks */,
 				A2B0DF3F28F30622009F1102 /* Resources */,
+				BFD1965B2DE2724D63E7B62F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Techl-Neo";
+			packageProductDependencies = (
+				A23AC15E28F31C4D00A39B08 /* Alamofire */,
+				A23AC16128F31C6500A39B08 /* Kingfisher */,
+				A23AC16428F31C7A00A39B08 /* SnapKit */,
+				A23AC16728F31C8D00A39B08 /* Then */,
+			);
 			productName = "Techl-Neo";
 			productReference = A2B0DF4128F30623009F1102 /* Techl-Neo.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +155,12 @@
 				Base,
 			);
 			mainGroup = A2B0DF3828F30622009F1102;
+			packageReferences = (
+				A23AC15D28F31C4D00A39B08 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				A23AC16028F31C6500A39B08 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				A23AC16328F31C7A00A39B08 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				A23AC16628F31C8D00A39B08 /* XCRemoteSwiftPackageReference "Then" */,
+			);
 			productRefGroup = A2B0DF4228F30623009F1102 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -136,6 +183,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5AC88736BAC0AC056AEE8A47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Techl-Neo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFD1965B2DE2724D63E7B62F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Techl-Neo/Pods-Techl-Neo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Techl-Neo/Pods-Techl-Neo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Techl-Neo/Pods-Techl-Neo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A2B0DF3D28F30622009F1102 /* Sources */ = {
@@ -286,6 +375,7 @@
 		};
 		A2B0DF5628F30626009F1102 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4B56B0526AD5311E60C8FEF /* Pods-Techl-Neo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -317,6 +407,7 @@
 		};
 		A2B0DF5728F30626009F1102 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0FFDFC48EC30A82C6C998E2 /* Pods-Techl-Neo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -368,6 +459,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A23AC15D28F31C4D00A39B08 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		A23AC16028F31C6500A39B08 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		A23AC16328F31C7A00A39B08 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		A23AC16628F31C8D00A39B08 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A23AC15E28F31C4D00A39B08 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A23AC15D28F31C4D00A39B08 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		A23AC16128F31C6500A39B08 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A23AC16028F31C6500A39B08 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		A23AC16428F31C7A00A39B08 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A23AC16328F31C7A00A39B08 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		A23AC16728F31C8D00A39B08 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A23AC16628F31C8D00A39B08 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A2B0DF3928F30622009F1102 /* Project object */;
 }
