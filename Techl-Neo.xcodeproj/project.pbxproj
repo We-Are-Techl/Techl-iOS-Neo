@@ -13,6 +13,7 @@
 		A23AC16228F31C6500A39B08 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A23AC16128F31C6500A39B08 /* Kingfisher */; };
 		A23AC16528F31C7A00A39B08 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A23AC16428F31C7A00A39B08 /* SnapKit */; };
 		A23AC16828F31C8D00A39B08 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = A23AC16728F31C8D00A39B08 /* Then */; };
+		A26097AC28F426EC0051BA41 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26097AB28F426EC0051BA41 /* UIColor+Extension.swift */; };
 		A2B0DF4528F30623009F1102 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B0DF4428F30623009F1102 /* AppDelegate.swift */; };
 		A2B0DF4728F30623009F1102 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B0DF4628F30623009F1102 /* SceneDelegate.swift */; };
 		A2B0DF4928F30623009F1102 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B0DF4828F30623009F1102 /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		A23AC15B28F3119400A39B08 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		A26097AB28F426EC0051BA41 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		A2B0DF4128F30623009F1102 /* Techl-Neo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Techl-Neo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2B0DF4428F30623009F1102 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2B0DF4628F30623009F1102 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 		A26097AA28F4269A0051BA41 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				A26097AB28F426EC0051BA41 /* UIColor+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				A2B0DF4928F30623009F1102 /* ViewController.swift in Sources */,
 				A2B0DF4528F30623009F1102 /* AppDelegate.swift in Sources */,
 				A2B0DF4728F30623009F1102 /* SceneDelegate.swift in Sources */,
+				A26097AC28F426EC0051BA41 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
