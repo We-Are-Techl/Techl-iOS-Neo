@@ -13,6 +13,12 @@
 		A23AC16228F31C6500A39B08 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A23AC16128F31C6500A39B08 /* Kingfisher */; };
 		A23AC16528F31C7A00A39B08 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A23AC16428F31C7A00A39B08 /* SnapKit */; };
 		A23AC16828F31C8D00A39B08 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = A23AC16728F31C8D00A39B08 /* Then */; };
+		A2499AA0291E4C4100A81D07 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = A2499A9F291E4C4100A81D07 /* Toast */; };
+		A2499AA3291E4C5800A81D07 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = A2499AA2291E4C5800A81D07 /* RxCocoa */; };
+		A2499AA5291E4C5800A81D07 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A2499AA4291E4C5800A81D07 /* RxSwift */; };
+		A2499AA8291E4D1200A81D07 /* Tabman in Frameworks */ = {isa = PBXBuildFile; productRef = A2499AA7291E4D1200A81D07 /* Tabman */; };
+		A2499AAB291E4D3400A81D07 /* Hero in Frameworks */ = {isa = PBXBuildFile; productRef = A2499AAA291E4D3400A81D07 /* Hero */; };
+		A2499AAE291E4D7B00A81D07 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = A2499AAD291E4D7B00A81D07 /* Lottie */; };
 		A26097AC28F426EC0051BA41 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26097AB28F426EC0051BA41 /* UIColor+Extension.swift */; };
 		A2B0DF4528F30623009F1102 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B0DF4428F30623009F1102 /* AppDelegate.swift */; };
 		A2B0DF4728F30623009F1102 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B0DF4628F30623009F1102 /* SceneDelegate.swift */; };
@@ -43,10 +49,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2499AA0291E4C4100A81D07 /* Toast in Frameworks */,
 				A23AC16528F31C7A00A39B08 /* SnapKit in Frameworks */,
 				A23AC16228F31C6500A39B08 /* Kingfisher in Frameworks */,
+				A2499AA3291E4C5800A81D07 /* RxCocoa in Frameworks */,
 				A23AC15F28F31C4D00A39B08 /* Alamofire in Frameworks */,
+				A2499AA8291E4D1200A81D07 /* Tabman in Frameworks */,
+				A2499AAE291E4D7B00A81D07 /* Lottie in Frameworks */,
 				A23AC16828F31C8D00A39B08 /* Then in Frameworks */,
+				A2499AA5291E4C5800A81D07 /* RxSwift in Frameworks */,
+				A2499AAB291E4D3400A81D07 /* Hero in Frameworks */,
 				6929CCD6B3AFD7DAECB86228 /* Pods_Techl_Neo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,6 +188,12 @@
 				A23AC16128F31C6500A39B08 /* Kingfisher */,
 				A23AC16428F31C7A00A39B08 /* SnapKit */,
 				A23AC16728F31C8D00A39B08 /* Then */,
+				A2499A9F291E4C4100A81D07 /* Toast */,
+				A2499AA2291E4C5800A81D07 /* RxCocoa */,
+				A2499AA4291E4C5800A81D07 /* RxSwift */,
+				A2499AA7291E4D1200A81D07 /* Tabman */,
+				A2499AAA291E4D3400A81D07 /* Hero */,
+				A2499AAD291E4D7B00A81D07 /* Lottie */,
 			);
 			productName = "Techl-Neo";
 			productReference = A2B0DF4128F30623009F1102 /* Techl-Neo.app */;
@@ -210,6 +228,11 @@
 				A23AC16028F31C6500A39B08 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 				A23AC16328F31C7A00A39B08 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				A23AC16628F31C8D00A39B08 /* XCRemoteSwiftPackageReference "Then" */,
+				A2499A9E291E4C4000A81D07 /* XCRemoteSwiftPackageReference "Toast-Swift" */,
+				A2499AA1291E4C5800A81D07 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				A2499AA6291E4D1200A81D07 /* XCRemoteSwiftPackageReference "Tabman" */,
+				A2499AA9291E4D3400A81D07 /* XCRemoteSwiftPackageReference "Hero" */,
+				A2499AAC291E4D7B00A81D07 /* XCRemoteSwiftPackageReference "lottie-ios" */,
 			);
 			productRefGroup = A2B0DF4228F30623009F1102 /* Products */;
 			projectDirPath = "";
@@ -548,6 +571,46 @@
 				minimumVersion = 3.0.0;
 			};
 		};
+		A2499A9E291E4C4000A81D07 /* XCRemoteSwiftPackageReference "Toast-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scalessec/Toast-Swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		A2499AA1291E4C5800A81D07 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 6.5.0;
+			};
+		};
+		A2499AA6291E4D1200A81D07 /* XCRemoteSwiftPackageReference "Tabman" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/uias/Tabman";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		A2499AA9291E4D3400A81D07 /* XCRemoteSwiftPackageReference "Hero" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/HeroTransitions/Hero";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.6.0;
+			};
+		};
+		A2499AAC291E4D7B00A81D07 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 3.5.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -570,6 +633,36 @@
 			isa = XCSwiftPackageProductDependency;
 			package = A23AC16628F31C8D00A39B08 /* XCRemoteSwiftPackageReference "Then" */;
 			productName = Then;
+		};
+		A2499A9F291E4C4100A81D07 /* Toast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A2499A9E291E4C4000A81D07 /* XCRemoteSwiftPackageReference "Toast-Swift" */;
+			productName = Toast;
+		};
+		A2499AA2291E4C5800A81D07 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A2499AA1291E4C5800A81D07 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		A2499AA4291E4C5800A81D07 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A2499AA1291E4C5800A81D07 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		A2499AA7291E4D1200A81D07 /* Tabman */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A2499AA6291E4D1200A81D07 /* XCRemoteSwiftPackageReference "Tabman" */;
+			productName = Tabman;
+		};
+		A2499AAA291E4D3400A81D07 /* Hero */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A2499AA9291E4D3400A81D07 /* XCRemoteSwiftPackageReference "Hero" */;
+			productName = Hero;
+		};
+		A2499AAD291E4D7B00A81D07 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A2499AAC291E4D7B00A81D07 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
