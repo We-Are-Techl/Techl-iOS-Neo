@@ -13,6 +13,7 @@ class BaseView: UIView {
     
     /// 베이스 뷰 이니셜라이저
     /// - 자동으로 setupUI(), setupConstraints()를 호출하므로 BaseView를 상속받은 커스텀뷰는 두 메서드를 오버라이딩하여 사용하면 됩니다.
+    /// - VC의 loadView() 메서드를 오버라이딩후 super 메서드를 호출하지 않고 view = 커스텀뷰()로 바꿔주어야 합니다. 
     override init(frame: CGRect) {
         super.init(frame: frame)
         
