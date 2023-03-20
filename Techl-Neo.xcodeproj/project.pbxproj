@@ -28,6 +28,8 @@
 		A2B0DF4C28F30623009F1102 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B0DF4A28F30623009F1102 /* Main.storyboard */; };
 		A2B0DF4E28F30625009F1102 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2B0DF4D28F30625009F1102 /* Assets.xcassets */; };
 		A2B0DF5128F30626009F1102 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B0DF4F28F30626009F1102 /* LaunchScreen.storyboard */; };
+		DE25D79029C830BC00DD87F3 /* ConciergeLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25D78F29C830BC00DD87F3 /* ConciergeLoginViewController.swift */; };
+		DE25D79229C830CE00DD87F3 /* ConciergeLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25D79129C830CE00DD87F3 /* ConciergeLoginView.swift */; };
 		DE81B1552934E0E300530B28 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE81B1542934E0E300530B28 /* OnboardingView.swift */; };
 		DE81B1572934E0FA00530B28 /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE81B1562934E0FA00530B28 /* OnboardingVC.swift */; };
 		DE81B1592934F15E00530B28 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE81B1582934F15E00530B28 /* OnboardingCollectionViewCell.swift */; };
@@ -50,6 +52,8 @@
 		A4B56B0526AD5311E60C8FEF /* Pods-Techl-Neo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Techl-Neo.debug.xcconfig"; path = "Target Support Files/Pods-Techl-Neo/Pods-Techl-Neo.debug.xcconfig"; sourceTree = "<group>"; };
 		C0FFDFC48EC30A82C6C998E2 /* Pods-Techl-Neo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Techl-Neo.release.xcconfig"; path = "Target Support Files/Pods-Techl-Neo/Pods-Techl-Neo.release.xcconfig"; sourceTree = "<group>"; };
 		CDB14C8E2D8B25F4975FA683 /* Pods_Techl_Neo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Techl_Neo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE25D78F29C830BC00DD87F3 /* ConciergeLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConciergeLoginViewController.swift; sourceTree = "<group>"; };
+		DE25D79129C830CE00DD87F3 /* ConciergeLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConciergeLoginView.swift; sourceTree = "<group>"; };
 		DE81B1542934E0E300530B28 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		DE81B1562934E0FA00530B28 /* OnboardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; };
 		DE81B1582934F15E00530B28 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -133,6 +137,7 @@
 		A26097A928F322E10051BA41 /* Presentations */ = {
 			isa = PBXGroup;
 			children = (
+				DE25D78E29C8309F00DD87F3 /* Authentication */,
 				DE81B1532934E0AB00530B28 /* Onboarding */,
 				A2499AAF291E502E00A81D07 /* Base */,
 				A2B0DF4828F30623009F1102 /* ViewController.swift */,
@@ -188,12 +193,21 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		DE25D78E29C8309F00DD87F3 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				DE25D78F29C830BC00DD87F3 /* ConciergeLoginViewController.swift */,
+				DE25D79129C830CE00DD87F3 /* ConciergeLoginView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
 		DE81B1532934E0AB00530B28 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
 				DE81B1542934E0E300530B28 /* OnboardingView.swift */,
-				DE81B1582934F15E00530B28 /* OnboardingCollectionViewCell.swift */,
 				DE81B1562934E0FA00530B28 /* OnboardingVC.swift */,
+				DE81B1582934F15E00530B28 /* OnboardingCollectionViewCell.swift */,
 				DE81B15A2934F28C00530B28 /* OnboardingMessage.swift */,
 			);
 			path = Onboarding;
@@ -340,9 +354,11 @@
 			files = (
 				A2B0DF4928F30623009F1102 /* ViewController.swift in Sources */,
 				DE81B1572934E0FA00530B28 /* OnboardingVC.swift in Sources */,
+				DE25D79029C830BC00DD87F3 /* ConciergeLoginViewController.swift in Sources */,
 				A2499AB3291E51D800A81D07 /* BaseVC.swift in Sources */,
 				A2B0DF4528F30623009F1102 /* AppDelegate.swift in Sources */,
 				A2499AB1291E504300A81D07 /* BaseView.swift in Sources */,
+				DE25D79229C830CE00DD87F3 /* ConciergeLoginView.swift in Sources */,
 				A2B0DF4728F30623009F1102 /* SceneDelegate.swift in Sources */,
 				A26097AC28F426EC0051BA41 /* UIColor+Extension.swift in Sources */,
 				DE81B1552934E0E300530B28 /* OnboardingView.swift in Sources */,
