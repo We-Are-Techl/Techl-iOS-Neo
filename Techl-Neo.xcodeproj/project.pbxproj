@@ -34,6 +34,10 @@
 		DE81B1572934E0FA00530B28 /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE81B1562934E0FA00530B28 /* OnboardingVC.swift */; };
 		DE81B1592934F15E00530B28 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE81B1582934F15E00530B28 /* OnboardingCollectionViewCell.swift */; };
 		DE81B15B2934F28C00530B28 /* OnboardingMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE81B15A2934F28C00530B28 /* OnboardingMessage.swift */; };
+		DEC955F929CE47FC0007177F /* FirstSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC955F829CE47FC0007177F /* FirstSignUpView.swift */; };
+		DEC955FB29CE48100007177F /* FirstSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC955FA29CE48100007177F /* FirstSignUpViewController.swift */; };
+		DEC955FD29CE48C70007177F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC955FC29CE48C70007177F /* LoginView.swift */; };
+		DEC9560029CE518B0007177F /* TextFieldEffects in Frameworks */ = {isa = PBXBuildFile; productRef = DEC955FF29CE518B0007177F /* TextFieldEffects */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +62,9 @@
 		DE81B1562934E0FA00530B28 /* OnboardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; };
 		DE81B1582934F15E00530B28 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
 		DE81B15A2934F28C00530B28 /* OnboardingMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingMessage.swift; sourceTree = "<group>"; };
+		DEC955F829CE47FC0007177F /* FirstSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSignUpView.swift; sourceTree = "<group>"; };
+		DEC955FA29CE48100007177F /* FirstSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSignUpViewController.swift; sourceTree = "<group>"; };
+		DEC955FC29CE48C70007177F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +81,7 @@
 				A2499AAE291E4D7B00A81D07 /* Lottie in Frameworks */,
 				A23AC16828F31C8D00A39B08 /* Then in Frameworks */,
 				A2499AA5291E4C5800A81D07 /* RxSwift in Frameworks */,
+				DEC9560029CE518B0007177F /* TextFieldEffects in Frameworks */,
 				A2499AAB291E4D3400A81D07 /* Hero in Frameworks */,
 				6929CCD6B3AFD7DAECB86228 /* Pods_Techl_Neo.framework in Frameworks */,
 			);
@@ -137,6 +145,7 @@
 		A26097A928F322E10051BA41 /* Presentations */ = {
 			isa = PBXGroup;
 			children = (
+				DEC9560129CE51F30007177F /* Login */,
 				DE25D78E29C8309F00DD87F3 /* Authentication */,
 				DE81B1532934E0AB00530B28 /* Onboarding */,
 				A2499AAF291E502E00A81D07 /* Base */,
@@ -198,6 +207,8 @@
 			children = (
 				DE25D78F29C830BC00DD87F3 /* ConciergeLoginViewController.swift */,
 				DE25D79129C830CE00DD87F3 /* ConciergeLoginView.swift */,
+				DEC955F829CE47FC0007177F /* FirstSignUpView.swift */,
+				DEC955FA29CE48100007177F /* FirstSignUpViewController.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -211,6 +222,14 @@
 				DE81B15A2934F28C00530B28 /* OnboardingMessage.swift */,
 			);
 			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		DEC9560129CE51F30007177F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				DEC955FC29CE48C70007177F /* LoginView.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +261,7 @@
 				A2499AA7291E4D1200A81D07 /* Tabman */,
 				A2499AAA291E4D3400A81D07 /* Hero */,
 				A2499AAD291E4D7B00A81D07 /* Lottie */,
+				DEC955FF29CE518B0007177F /* TextFieldEffects */,
 			);
 			productName = "Techl-Neo";
 			productReference = A2B0DF4128F30623009F1102 /* Techl-Neo.app */;
@@ -281,6 +301,7 @@
 				A2499AA6291E4D1200A81D07 /* XCRemoteSwiftPackageReference "Tabman" */,
 				A2499AA9291E4D3400A81D07 /* XCRemoteSwiftPackageReference "Hero" */,
 				A2499AAC291E4D7B00A81D07 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				DEC955FE29CE518A0007177F /* XCRemoteSwiftPackageReference "TextFieldEffects" */,
 			);
 			productRefGroup = A2B0DF4228F30623009F1102 /* Products */;
 			projectDirPath = "";
@@ -355,15 +376,18 @@
 				A2B0DF4928F30623009F1102 /* ViewController.swift in Sources */,
 				DE81B1572934E0FA00530B28 /* OnboardingVC.swift in Sources */,
 				DE25D79029C830BC00DD87F3 /* ConciergeLoginViewController.swift in Sources */,
+				DEC955FD29CE48C70007177F /* LoginView.swift in Sources */,
 				A2499AB3291E51D800A81D07 /* BaseVC.swift in Sources */,
 				A2B0DF4528F30623009F1102 /* AppDelegate.swift in Sources */,
 				A2499AB1291E504300A81D07 /* BaseView.swift in Sources */,
 				DE25D79229C830CE00DD87F3 /* ConciergeLoginView.swift in Sources */,
 				A2B0DF4728F30623009F1102 /* SceneDelegate.swift in Sources */,
+				DEC955F929CE47FC0007177F /* FirstSignUpView.swift in Sources */,
 				A26097AC28F426EC0051BA41 /* UIColor+Extension.swift in Sources */,
 				DE81B1552934E0E300530B28 /* OnboardingView.swift in Sources */,
 				DE81B15B2934F28C00530B28 /* OnboardingMessage.swift in Sources */,
 				DE81B1592934F15E00530B28 /* OnboardingCollectionViewCell.swift in Sources */,
+				DEC955FB29CE48100007177F /* FirstSignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -673,6 +697,14 @@
 				minimumVersion = 3.5.0;
 			};
 		};
+		DEC955FE29CE518A0007177F /* XCRemoteSwiftPackageReference "TextFieldEffects" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/raulriera/TextFieldEffects.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -725,6 +757,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = A2499AAC291E4D7B00A81D07 /* XCRemoteSwiftPackageReference "lottie-ios" */;
 			productName = Lottie;
+		};
+		DEC955FF29CE518B0007177F /* TextFieldEffects */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DEC955FE29CE518A0007177F /* XCRemoteSwiftPackageReference "TextFieldEffects" */;
+			productName = TextFieldEffects;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
